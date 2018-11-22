@@ -155,8 +155,7 @@ public class Utils {
             serverUrl = context.getString(R.string.updater_server_url);
         }
 
-        return serverUrl.replace("{device}", device)
-                .replace("{type}", type);
+        return serverUrl;
     }
 
     public static String getChangelogURL(Context context) {
